@@ -1019,7 +1019,7 @@ helga.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 	        helga.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			helga.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"Hallo Banh:v",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/6285649064565`}}})
+			helga.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"Hallo Banh:v",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://chat.whatsapp.com/CONEEVXvT8JCn4ZqYJVims`}}})
 		}
 		const simir = (teks) => {
 			helga.sendMessage(from, teks, text, { quoted:ftrol })
