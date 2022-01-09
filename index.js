@@ -69,8 +69,8 @@ exec(`cd /sdcard/download && play *mp3`)
    
    helga.on('chat-update', async (mek) => {
         require('./helga.js')(helga, mek)
-        ownerNumber = ["6282138919347@s.whatsapp.net","6282138919347@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6282138919347@s.whatsapp.net"
+        ownerNumber = ["6285649064565@s.whatsapp.net","6285649064565@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6285649064565@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
     
@@ -92,7 +92,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			}
 			let buff = await getBuffer(ppimg)
 			masuk =`Halo @${num.split('@')[0]}\nSelamat Datang Di ${mdata.subject}\n\n*Jangan Lupa Isi*\n*Nama* :\n*Umur* :\n*Gender* :\n*Askot* :\n\nEnjoy Jangan Lupa Kenalan\nKlik Button Di Bawah Untuk Memulai Bot\nNote Jika Tidak Ada Ketik .allmenu`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'👋Welcome,Out Mati'},type:1}]
+			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Haloo\n\n\n Saya Gay Dan Saya Bangga😙_'},type:1}]
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${masuk}`,
@@ -111,8 +111,8 @@ headerType: 4 }
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
 			let buff = await getBuffer(ppimg)
-			keluar =`Selamat tinggal @${num.split('@')[0]}\nSemoga tentang disana`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'👋Byee'},type:1}]
+			keluar =`Selamat tinggal @${num.split('@')[0]}\nSemoga tenang di alam sana:(`
+			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Dadah\n\n\n Sayangku Cintaku:(,Pdahal Belom Buat Anak:(_'},type:1}]
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
