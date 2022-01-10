@@ -92,7 +92,7 @@ exec(`cd /sdcard/download && play *mp3`)
 			}
 			let buff = await getBuffer(ppimg)
 			masuk =`Halo @${num.split('@')[0]}\nSelamat Datang Di ${mdata.subject}\n\n*Jangan Lupa Isi*\n*Nama* :\n*Umur* :\n*Gender* :\n*Askot* :\n\nEnjoy Jangan Lupa Kenalan\nKlik Button Di Bawah Untuk Memulai Bot\nNote Jika Tidak Ada Ketik .allmenu`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Haloo_\n\n\n _Saya Gay Dan Saya Bangga😙_\n_Jadi Mau Kah @${num.split('@')[0]} Jadi Pacar Saya?_'},type:1}]
+			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Haloo_\n\n\n_Saya Gay Dan Saya Bangga😙_\n_Jadi Mau Kah @${num.split('@')[0]} Jadi Pacar Saya?_'},type:1}]
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${masuk}`,
@@ -112,7 +112,7 @@ headerType: 4 }
 			}
 			let buff = await getBuffer(ppimg)
 			keluar =`Selamat tinggal @${num.split('@')[0]}\nSemoga tenang di alam sana:(`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Dadah_\n\n\n Sayangku Cintaku:(,Pdahal Gw Suka Banget Ama @${num.split('@')[0]} :(_'},type:1}]
+			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'_Dadah_\n\n\n_Sayangku Cintaku:(,Pdahal Gw Suka Banget Ama @${num.split('@')[0]} :(_'},type:1}]
 			mhan = await helga.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
